@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: blueviolet;
+    background-image: url(../fondo/pattern1.png);
+}
+h1{
+    color: purple;
+}
+@media only screen and (min-width: 600px){
+    body{
+        background-color: yellow;
+        background-image: url(../fondo/pattern2.png);
+    }
+    h1{
+        color: aqua;
+        font-size: 3rem;
+    }
+}
+@media screen and (min-width: 768px) {
+    body{
+        background-color: black;
+        background-image: url(../fondo/pattern3.png);
+    }
+    h1{
+        color: blue;
+        font-size: 2rem;
+    }
+}
